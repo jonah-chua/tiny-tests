@@ -42,8 +42,6 @@ async def run(playwright: Playwright) -> None:
                     await page.wait_for_selector("//span[@class='ryNqvb']",state='hidden')
                 except:
                     await cont()
-            if idx==0:
-                break
 
 
     # ---------------------
